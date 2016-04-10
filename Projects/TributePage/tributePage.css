@@ -1,0 +1,35 @@
+body {
+background-color: black;
+color: orange;
+}
+h1 {
+font-size: 100px;
+}
+h2 {
+color: cyan;
+font-size: 45px;
+}
+h3 {
+    font-size: 27px;
+}
+ul {
+    color: green;
+    font-size: 18px;
+}
+#ulAlign {
+    margin-left: auto;
+    margin-right: auto;
+    width: 72%;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 72%;
+}
+.text-center {
+    text-align: center;
+}
+footer {
+    color: white;
+}
