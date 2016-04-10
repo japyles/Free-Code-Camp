@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(255, 127, 80);
+}
+
+#title {
+  //border: 10px solid;
+  //border-color: blue;
+  //border-radius: 25px;
+  color: rgb(102, 51, 153);
+  text-align: center;
+  font-size: 27px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#quote p {
+  margin: 72px 400px 72px 400px;
+  padding: 10px;
+  color: rgb(255, 239, 213);
+  font-size: 27px;
+  font-family: monospace;;
+}
+
+/*#quoteButton {
+    height: 72px;
+    width: 127px;
+}*/
