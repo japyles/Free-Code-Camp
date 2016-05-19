@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title id="now"></title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Generates random quotes">
   <meta name="author" content="John Pyles">
-  <title>Random Quotes</title>
   <!-- CSS -->
   <link href="/Users/jpyles/randomQuotes.css" rel="stylesheet"/>
   <!-- jQuery -->
@@ -20,8 +20,15 @@
   <div id="quote">
     <p></p>
   </div>
-  <div id="quoteButton" align='center'>
-    <button style="height:27px; width:172px; font-weight:bold">New Quote</button>
+  <div id="quoteButton" align="center">
+  <button style="height:27px; width:172px; font-weight:bold">New Quote</button>
   </div>
+  <div id=tweet align="center">
+      <br/><br/>
+      <a href='http://twitter.com/home/?status=' class="twitter-share-button" data-via="pymor7" data-size="large">Tweet</a>
+  </div>
+    <script>
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+    </script>
 </body>
 </html>

@@ -17,8 +17,11 @@ $(document).ready(function(){
       "You keep using that word. I do not think it means what you think it means.<span><br/></br> -Inigo Montoya</span>",
       "Hello! My name is Inigo Montoya! You killed my father! Prepare to die! <span><br/></br> -Inigo Montoya</span>"
     ];
-    
+
     var random = Math.floor(Math.random() * quotes.length);
     $("#quote").append("<p>"+quotes[random]+"</p>");
+    this.getElementsByTagName("title").innerHTML = quotes[random];
+    //$("title").append(quotes[random]);
+
   });
 });
